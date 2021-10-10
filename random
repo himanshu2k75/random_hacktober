@@ -10,12 +10,12 @@ int main()
     while(1){
     
 
-        printf("Enter New Number ");
+        printf("Enter new Number ");
 
         scanf("%d", &a);
         if (a == n)
         {
-            printf("You guessed the correct number here\n");
+            printf("You guessed the correct number\n");
             break;
         }
         else if (a > n)
